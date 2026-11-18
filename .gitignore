@@ -1,0 +1,49 @@
+# ── Environment & Secrets ──────────────────────────────────────────
+.env
+.env.*
+*.env
+!.env.example
+secrets.json
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environment ───────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Private Customer Data & Runtime Stores ─────────────────────────
+data/
+*.db
+*.sqlite3
+
+# ── CrewAI Runtime State ──────────────────────────────────────────
+.crewai/
+last_run.json
+
+# ── IDE & OS ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Jupyter ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs & Temp ───────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak

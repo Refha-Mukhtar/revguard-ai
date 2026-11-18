@@ -1,0 +1,15 @@
+streamlit
+fastapi
+uvicorn[standard]
+pydantic
+crewai
+groq
+python-dotenv
+fpdf2
+pypdf
+pandas
+numpy
+scikit-learn
+plotly
+requests
+chromadb
